@@ -1,0 +1,10 @@
+# Keep every text file LF in this repository.
+#
+# Why: this folder is meant to be copied/lifted into its own public GitHub
+# repository. On Windows checkouts (core.autocrlf=true) a shell script with
+# CRLF line endings fails in GitHub Actions with "\r: command not found",
+# which would make scripts/check-links.sh look broken for no reason.
+* text=auto eol=lf
+*.sh text eol=lf
+*.png binary
+*.jpg binary

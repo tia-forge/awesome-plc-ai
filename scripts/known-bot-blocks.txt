@@ -1,0 +1,15 @@
+# Hosts that answer automated requests with 403/429 while the page itself is fine
+# in a browser. Their links are downgraded from WARN to INFO by check-links.sh.
+# Review this file whenever a link is added, and remove entries that start
+# answering 200 again.
+codesys.com
+omron.com
+se.com
+reddit.com
+phoenixcontact.com
+siemens.com
+rockwellautomation.com
+linkedin.com
+openai.com
+thehackernews.com
+emerson.com
